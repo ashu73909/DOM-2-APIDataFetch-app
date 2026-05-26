@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API data Fetching </title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <button 
+        class="rounded-[999px] text-sm h-11  text-white py-[1px] px-4 text-base m-2 ml-0 bg-gray-900"
+        id="dark-Btn"
+        >
+        &#x2600
+        </button>
+        <input 
+        type="text" 
+        id="inputAPI" 
+        placeholder="Enter API"
+        >
+        <button id="apiBtn">Fetch</button>
+        <p>Fetched API data</p>
+        <div class="data-container" id="data-c"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
